@@ -1,3 +1,2 @@
 # PortfolioWebsite
-My Portfolio Website
-https://zuhaibmansoor.com/
+My Portfolio Website: https://zuhaibmansoor.com/
