@@ -1,0 +1,53 @@
+/* stylelint-disable at-rule-no-unknown */
+@import "tailwindcss";
+@tailwind utilities;
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+/* Add your background fix here so it's global */
+#particles-js {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-color: #0f172a;
+  pointer-events: none;
+}
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 300% 300%;
+  animation: gradient-flow 8s ease infinite;
+}
+
+.bg-300 {
+  background-size: 300% 300%;
+}
+
+@theme {
+  --animate-gradient: gradient-flow 8s ease infinite;
+  --background-size-300: 300% 300%;
+}
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
