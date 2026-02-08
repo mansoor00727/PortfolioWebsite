@@ -11,8 +11,8 @@ const About = () => {
     },
     {
       icon: <MapPin size={20} />,
-      text: "Based in Bharuch, India",
-      sub: "Relocating to Canada 2026",
+      text: "Based in Ontario, Canada",
+      sub: "Flexible with relocating",
     },
     {
       icon: <Terminal size={20} />,
@@ -27,7 +27,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-24 scroll-mt-20">
+    <section id="about" className="py-16 scroll-mt-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Column: Narrative */}

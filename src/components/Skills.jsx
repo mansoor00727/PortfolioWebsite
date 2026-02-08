@@ -32,7 +32,7 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-24 border-t border-slate-800">
+    <section id="skills" className="py-16 border-t border-slate-800">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-bold mb-12 border-l-4 border-purple-500 pl-4">
           Skills Matrix

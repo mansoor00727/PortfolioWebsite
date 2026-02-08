@@ -18,7 +18,7 @@ const Contact = () => {
     {
       icon: <Linkedin size={20} />,
       label: "LinkedIn",
-      href: "www.linkedin.com/in/mohammadzuhaib-mansoor-b831a3218",
+      href: "https://linkedin.com/in/mohammadzuhaib-mansoor-b831a3218",
       color: "hover:bg-blue-600",
     },
     {
@@ -69,7 +69,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-24 border-t border-slate-800">
+    <section id="contact" className="py-16 border-t border-slate-800">
       <div className="max-w-xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">Let's Connect</h2>
         <p className="text-slate-400 mb-12">

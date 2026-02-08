@@ -35,7 +35,7 @@ const Projects = () => {
   const [selectedImg, setSelectedImg] = useState(null);
 
   return (
-    <section id="projects" className="py-24">
+    <section id="projects" className="py-16">
       <h2 className="text-4xl font-bold mb-16 border-l-4 border-blue-500 pl-4 text-white">
         Featured Work
       </h2>
