@@ -47,7 +47,9 @@ const Contact = () => {
         "https://cgrq6q4tcf.execute-api.ca-central-1.amazonaws.com/default/email_handler",
         {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: {
+            "Content-Type": "application/json",
+          },
           body: JSON.stringify(data),
         },
       );
